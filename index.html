@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>furniture-configurator</title>
+  </head>
+  <body>
+    <div id="ui">
+      <h3>Furniture Configurator</h3>
+      <div class="control-group">
+        <!-- ======== COLOR PICKER START ======== -->
+          <label for="wood-color">
+              Wood Color
+          </label>
+
+          <input
+              id="wood-color"
+              type="color"
+              value="#ffffff"
+          >
+          <!-- ======== COLOR PICKER END ======== -->
+
+          <!-- ======== TEXTURE PICKER START ======== -->
+          <label for="wood-finish">
+             Wood Finish
+          </label>
+
+          <select id="wood-finish">
+              <option value="original">
+                  Original
+              </option>
+
+              <option value="oak">
+                    Oak
+              </option>
+
+              <option value="pine">
+                  Pine
+              </option>
+
+              <option value="strand_board">
+                  Strand Board
+              </option>
+          </select>
+        <!-- ======== TEXTURE PICKER END ======== -->
+
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
